@@ -4,6 +4,11 @@
 
 int main()
 {
+	int d;
+	while(1){d=getchar();
+	getchar();
+	printf("%d\n",d);
+	if(d==49){
 	char *a=malloc(0x8);
 	char *b=malloc(0x8);
 	char *c=malloc(0x8);
@@ -25,5 +30,8 @@ int main()
 
 	printf("first chunk @ %p.\n",d);
 	printf("Second chunk @ %p.\n",e);
-	printf("Fourth chunk @ %p.\n",f);
+	printf("Fourth chunk @ %p.\n",f);}
+	
+	else{break;}}
+	
 }
