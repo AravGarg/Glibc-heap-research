@@ -1,0 +1,4 @@
+break *0x400E29
+display/6xg 0x6020c0
+display/3xg 0x602018
+break *0x400cda
