@@ -4,6 +4,6 @@
 int main()
 {
 	char *mmaped=NULL;
-	mmaped=mmap(NULL,(size_t)132*1024,PROT_READ|PROT_WRITE,MAP_PRIVATE|MAP_ANONYMOUS,-1,0);
+	mmaped=mmap(NULL,1024,7,MAP_PRIVATE|MAP_ANONYMOUS,0,0);
 	printf("%p\n",mmaped);
 }
